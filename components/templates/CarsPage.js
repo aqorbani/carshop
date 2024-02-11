@@ -1,5 +1,5 @@
 import Cards from "../modules/Cards";
-import styles from "./Cars.module.css";
+import styles from "./CarsPage.module.css";
 
 export default function CarsPage({ data }) {
   return (
