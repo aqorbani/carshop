@@ -5,3 +5,18 @@
   max-width: 1200px;
   margin: auto;
 }
+
+.notfound {
+  width: 100%;
+  padding: 20px;
+}
+
+.notfound p {
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: rgb(217, 217, 217);
+}

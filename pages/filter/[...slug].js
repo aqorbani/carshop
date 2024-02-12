@@ -8,8 +8,6 @@ export default function FilterCars() {
   const filteredData = carsData.filter(
     (car) => car.price >= min && car.price <= max
   );
-  if (filteredData.length < 1) {
-    return <p>Not Found</p>;
-  }
+
   return <CarsPage data={filteredData} />;
 }
